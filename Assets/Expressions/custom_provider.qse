@@ -1,0 +1,15 @@
+aaad5bbcd12b47f39223f136efb393c4 = {
+	type = "results"
+	source = "922bb8fe1c92444d9edafb773f40b888"
+	position = [0 0]
+}
+2768c5bee7754df08ad1dc1ac9473325 = {
+	type = "provider"
+	value = "custom"
+	position = [-470 -49]
+}
+922bb8fe1c92444d9edafb773f40b888 = {
+	type = "search"
+	source = "2768c5bee7754df08ad1dc1ac9473325"
+	position = [-250 -73]
+}

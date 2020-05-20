@@ -1,0 +1,16 @@
+52afb81c99a44549b44b5e44691df9be = {
+	type = "results"
+	source = "8e3b5465fb744b5cb06c311d28619c3d"
+	position = [24 -38]
+}
+a49fdb29c19c47a887367d32381094c8 = {
+	type = "provider"
+	value = "asset"
+	position = [-333 -25]
+}
+8e3b5465fb744b5cb06c311d28619c3d = {
+	type = "search"
+	source = "a49fdb29c19c47a887367d32381094c8"
+	value = "t:material"
+	position = [-157 -49]
+}

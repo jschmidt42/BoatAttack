@@ -1,0 +1,30 @@
+"98caab73-dcf4-4a5f-80da-ed5fe55442ea" = {
+	type = "results"
+	source = "7c10a1b6-78a8-45cf-ac06-b1444eb9fc2a"
+	position = [318 -46]
+}
+"f73c0b9a-b8c6-44be-b8d0-7b8b59612051" = {
+	type = "provider"
+	source = "scene"
+	position = [-148 -151]
+}
+"7c10a1b6-78a8-45cf-ac06-b1444eb9fc2a" = {
+	type = "search"
+	source = "f73c0b9a-b8c6-44be-b8d0-7b8b59612051"
+	value = "ref=\"$materialRef\""
+	variables = {
+		materialRef = "267e0344-cc7c-4334-96da-8d6c7347e397"
+	}
+	position = [99 -94]
+}
+"a87e60db-5371-4d8f-8203-aa870085ab56" = {
+	type = "provider"
+	source = "asset"
+	position = [-284 7]
+}
+"267e0344-cc7c-4334-96da-8d6c7347e397" = {
+	type = "search"
+	source = "a87e60db-5371-4d8f-8203-aa870085ab56"
+	value = "ref:internalerrorshader"
+	position = [-145 -5]
+}

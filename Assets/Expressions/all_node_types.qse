@@ -1,0 +1,35 @@
+f82f0382191b4d6c9255bcadbc835440 = {
+	type = "results"
+	position = [26 30]
+}
+55ad8dc5b58a4a5399c0a6bd3b783d28 = {
+	type = "provider"
+	source = null
+	position = [132 -59]
+}
+e51779e0a28d4400bf87c20d947490bb = {
+	type = "value"
+	value = ""
+	position = [258 -62]
+}
+e504350a33be41f5a378417bf5f02c0d = {
+	type = "search"
+	position = [-236 58]
+	color = "79AED1"
+}
+c15e27b4b39247afbb9bb4b440e3928b = {
+	type = "select"
+	position = [71 -176]
+}
+aebdec6561a64c27ad93c241619577e5 = {
+	type = "union"
+	position = [-113 -125]
+}
+4d95290f843f467997f85d108bde26f6 = {
+	type = "intersect"
+	position = [-227 -121]
+}
+aed7690bc4374d37a1f6d586503a87bf = {
+	type = "except"
+	position = [-334 -121]
+}

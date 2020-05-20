@@ -1,0 +1,16 @@
+e4d9c02c978946cd82b63d171b6ab1a8 = {
+	type = "results"
+	source = "d9741d8aa9bd45048eb598f212bc6611"
+	position = [6 -10]
+}
+c200024a237c4c399d170b22d458e641 = {
+	type = "provider"
+	value = "log"
+	position = [-311 -49]
+}
+d9741d8aa9bd45048eb598f212bc6611 = {
+	type = "search"
+	source = "c200024a237c4c399d170b22d458e641"
+	value = "exception"
+	position = [-152 -50]
+}
