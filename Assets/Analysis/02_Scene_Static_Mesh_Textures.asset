@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
   m_Name: 02_Scene_Static_Mesh_Textures
   m_EditorClassIdentifier: 
-  type: 2
+  type: 5
   title: Textures / Static Mesh
   description: Show all the different resolutions of textures being used in a scene
     from static meshes

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
   m_Name: 01_Prefab_Scene_Refs 1
   m_EditorClassIdentifier: 
-  type: 2
+  type: 4
   title: Prefab / Scene References
   description: Show how prefabs are nested and utilized across scenes
-  expression: {fileID: 202931137357016326, guid: ffc025f723892af45852e1c2956e7291,
+  expression: {fileID: 202931137357016326, guid: ed7a68d79be199e41ade673777514809,
     type: 3}
   variables: []

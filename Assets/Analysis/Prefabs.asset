@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
   m_Name: Prefabs
   m_EditorClassIdentifier: 
-  type: 16
+  type: 18
   title: Scene Prefabs
   description: 
   expression: {fileID: 202931137357016326, guid: 80b1bbc976820f74ca1915436f8c62c8,
