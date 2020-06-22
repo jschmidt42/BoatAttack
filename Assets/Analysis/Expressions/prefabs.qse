@@ -1,18 +1,18 @@
 6570f6b37d2b46979435055e63af43fc = {
 	type = "results"
 	source = "7ddd0f678a4343ce90b17b7f7579e226"
-	position = [467.5 -14.5]
+	position = [468 -14]
 }
 ccf714082ed14cafbc5ab990cfae177f = {
 	type = "provider"
 	value = "scene"
-	position = [-172.5 -91.5]
+	position = [-172 -91]
 }
 c8fa0890386b40d794c2269c74849940 = {
 	type = "search"
 	source = "ccf714082ed14cafbc5ab990cfae177f"
 	value = "t:prefab"
-	position = [7.5 -129.5]
+	position = [8 -129]
 }
 fa41822afba44f5bb28748a5952568d5 = {
 	type = "map"
@@ -25,13 +25,13 @@ fa41822afba44f5bb28748a5952568d5 = {
 		Mapping = 2
 		GroupBy = "t"
 	}
-	position = [214.5 -129.5]
+	position = [215 -129]
 }
 6bfc3ce5c1534d438730a9ad7334e975 = {
 	type = "search"
 	source = "ccf714082ed14cafbc5ab990cfae177f"
 	value = "-t:prefab"
-	position = [7.5 12]
+	position = [8 12]
 }
 ca62f20b272f47909cfa9fba113984e3 = {
 	type = "map"
@@ -39,13 +39,28 @@ ca62f20b272f47909cfa9fba113984e3 = {
 	variables = {
 		Y = "6bfc3ce5c1534d438730a9ad7334e975"
 	}
-	position = [214.5 -4.5]
+	position = [215 -4]
 }
 7ddd0f678a4343ce90b17b7f7579e226 = {
 	type = "union"
 	variables = {
 		1 = "fa41822afba44f5bb28748a5952568d5"
 		2 = "ca62f20b272f47909cfa9fba113984e3"
+		3 = "49be9a67ce384f34a4aba088f493fe99"
 	}
 	position = [364 -79]
+}
+d828c886684840538be21e30a6dfbfbb = {
+	type = "search"
+	source = "ccf714082ed14cafbc5ab990cfae177f"
+	value = "is:static"
+	position = [20 -278]
+}
+49be9a67ce384f34a4aba088f493fe99 = {
+	type = "map"
+	name = "Static"
+	variables = {
+		Y = "d828c886684840538be21e30a6dfbfbb"
+	}
+	position = [215 -278]
 }

@@ -1,0 +1,62 @@
+6570f6b37d2b46979435055e63af43fc = {
+	type = "results"
+	source = "dbbef96e36c34ccbab61fc83d5b7d89a"
+	position = [559 -54]
+}
+ccf714082ed14cafbc5ab990cfae177f = {
+	type = "provider"
+	value = "scene"
+	position = [-261 -137]
+}
+c8fa0890386b40d794c2269c74849940 = {
+	type = "search"
+	name = "static meshes"
+	source = "ccf714082ed14cafbc5ab990cfae177f"
+	value = "is:static path:Buildings"
+	position = [-114 -156]
+}
+fa41822afba44f5bb28748a5952568d5 = {
+	type = "map"
+	name = "Prefabs"
+	variables = {
+		X = "ff72bf2e0b6140dcacf9c6db521ae55a"
+		Y = null
+	}
+	properties = {
+		Mapping = 2
+		GroupBy = "width"
+	}
+	position = [459 -213]
+}
+2ba3257764b441aebb28e4bc8c5e1536 = {
+	type = "select"
+	source = "c8fa0890386b40d794c2269c74849940"
+	value = "references"
+	properties = {
+		type = "Texture2D"
+		depth = 1
+	}
+	position = [35 -314]
+}
+ff72bf2e0b6140dcacf9c6db521ae55a = {
+	type = "select"
+	source = "2ba3257764b441aebb28e4bc8c5e1536"
+	value = "asset"
+	properties = {
+		type = "Texture2D"
+		field = "m_Height"
+	}
+	position = [281 -314]
+}
+dbbef96e36c34ccbab61fc83d5b7d89a = {
+	type = "map"
+	variables = {
+		X = "2ba3257764b441aebb28e4bc8c5e1536"
+		Y = "c8fa0890386b40d794c2269c74849940"
+	}
+	properties = {
+		Mapping = 2
+		GroupBy = "ref"
+	}
+	position = [430 -15]
+}
