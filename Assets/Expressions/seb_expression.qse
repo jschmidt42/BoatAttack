@@ -1,0 +1,49 @@
+04b3808b2a6542dfb45b69acc04fd651 = {
+	type = "results"
+	source = "0f0285a1c61a46328fa6059c65edda3f"
+	position = [257 -75.5]
+}
+b41476b32a504c1499e12a59713b6fb1 = {
+	type = "provider"
+	source = "asset"
+	position = [-306 -114]
+}
+ed5581d424964c2daa7dd16f52644a60 = {
+	type = "provider"
+	source = "object"
+	position = [-399.5 38.5]
+}
+9aaab72158394bb58d0875b8fa51122c = {
+	type = "provider"
+	source = "scene"
+	position = [-173 155]
+}
+1c599648f8c740fcb117020f7479584f = {
+	type = "search"
+	source = "b41476b32a504c1499e12a59713b6fb1"
+	value = "t:$SE"
+	variables = {
+		SE = "d20483985ef74f24a722c5e0d7b25407"
+	}
+	position = [-118.5 -99.5]
+}
+d20483985ef74f24a722c5e0d7b25407 = {
+	type = "search"
+	source = "ed5581d424964c2daa7dd16f52644a60"
+	value = "obj1"
+	position = [-251.5 14.5]
+}
+0f0285a1c61a46328fa6059c65edda3f = {
+	type = "except"
+	source = "1c599648f8c740fcb117020f7479584f"
+	variables = {
+		With = "7bba8ffbeffa4b67a46cd03a47c8c801"
+	}
+	position = [104 -125]
+}
+7bba8ffbeffa4b67a46cd03a47c8c801 = {
+	type = "search"
+	source = "9aaab72158394bb58d0875b8fa51122c"
+	value = "t:light"
+	position = [-30.5 54]
+}

@@ -1,0 +1,30 @@
+"144f979a-5688-40b5-bfa6-d99b9254fbbc" = {
+	type = "results"
+	source = "5c876dc3-4474-4425-91a9-7421506a4136"
+	position = [303 -27]
+}
+"7bd4c5e6-ab27-46fd-bcbc-a8c74ea67ef7" = {
+	type = "provider"
+	source = "asset"
+	position = [-266 71]
+}
+"3010c99c-2555-4839-a4d9-7af3771ffcb0" = {
+	type = "search"
+	source = "7bd4c5e6-ab27-46fd-bcbc-a8c74ea67ef7"
+	value = "-a:packages t:MonoScript -Editor"
+	position = [-152 98]
+}
+"e2959ca4-7651-417a-a61a-1a0568b6ad92" = {
+	type = "provider"
+	source = "scene"
+	position = [-172 -86]
+}
+"5c876dc3-4474-4425-91a9-7421506a4136" = {
+	type = "search"
+	source = "e2959ca4-7651-417a-a61a-1a0568b6ad92"
+	value = "ref:$ref"
+	variables = {
+		ref = "3010c99c-2555-4839-a4d9-7af3771ffcb0"
+	}
+	position = [139 -39]
+}

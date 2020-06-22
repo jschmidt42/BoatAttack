@@ -1,0 +1,39 @@
+6570f6b37d2b46979435055e63af43fc = {
+	type = "results"
+	source = "fa41822afba44f5bb28748a5952568d5"
+	position = [467.5 -14.5]
+}
+ccf714082ed14cafbc5ab990cfae177f = {
+	type = "provider"
+	value = "asset"
+	position = [-127 -184]
+}
+c8fa0890386b40d794c2269c74849940 = {
+	type = "search"
+	source = "ccf714082ed14cafbc5ab990cfae177f"
+	value = "t:texture"
+	position = [7.5 -129.5]
+}
+1164418d851f430a974b5d8e2a095104 = {
+	type = "select"
+	source = "c8fa0890386b40d794c2269c74849940"
+	value = "object"
+	properties = {
+		type = "Texture2D"
+		field = "m_Width"
+	}
+	position = [169 -180]
+}
+fa41822afba44f5bb28748a5952568d5 = {
+	type = "map"
+	name = "Texture Width Count"
+	variables = {
+		X = "1164418d851f430a974b5d8e2a095104"
+		Y = "c8fa0890386b40d794c2269c74849940"
+	}
+	properties = {
+		Mapping = 2
+		GroupBy = "width"
+	}
+	position = [348.5 -62.5]
+}

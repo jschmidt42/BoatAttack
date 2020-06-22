@@ -1,0 +1,3 @@
+[submodule "Packages/com.unity.quicksearch"]
+	path = Packages/com.unity.quicksearch
+	url = git@github.cds.internal.unity3d.com:unity/com.unity.quicksearch.git
