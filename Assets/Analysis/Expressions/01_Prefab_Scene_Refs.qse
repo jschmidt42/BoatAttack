@@ -1,0 +1,35 @@
+6570f6b37d2b46979435055e63af43fc = {
+	type = "results"
+	source = "fa41822afba44f5bb28748a5952568d5"
+	position = [344 -28]
+}
+ccf714082ed14cafbc5ab990cfae177f = {
+	type = "provider"
+	value = "asset"
+	position = [-172 -91]
+}
+c8fa0890386b40d794c2269c74849940 = {
+	type = "search"
+	source = "ccf714082ed14cafbc5ab990cfae177f"
+	value = "t:prefab"
+	position = [8 -129]
+}
+fa41822afba44f5bb28748a5952568d5 = {
+	type = "map"
+	name = "Prefabs"
+	variables = {
+		X = "c8fa0890386b40d794c2269c74849940"
+		Y = "2cfca94a9b3044599dde5fefa4ccb07b"
+	}
+	properties = {
+		Mapping = 2
+		GroupBy = "ref"
+	}
+	position = [190 -129]
+}
+2cfca94a9b3044599dde5fefa4ccb07b = {
+	type = "search"
+	source = "ccf714082ed14cafbc5ab990cfae177f"
+	value = "t:scene"
+	position = [8 26]
+}
