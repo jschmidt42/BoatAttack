@@ -38,9 +38,9 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.quicksearch": {
-      "version": "file:U:/quicksearch",
+      "version": "file:com.unity.quicksearch",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {}
     },
     "com.unity.render-pipelines.core": {

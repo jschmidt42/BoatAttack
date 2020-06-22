@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: _Textures
+  m_Name: Textures
   m_EditorClassIdentifier: 
   type: 16
   title: Texture Sizes
   description: Count the amount of textures per width
-  expression: {fileID: 202931137357016326, guid: 11b9284a48bd12a48891e3a60676e7e1, type: 3}
+  expression: {fileID: 202931137357016326, guid: 11b9284a48bd12a48891e3a60676e7e1,
+    type: 3}
   variables: []
