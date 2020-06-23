@@ -1,0 +1,70 @@
+6570f6b37d2b46979435055e63af43fc = {
+	type = "results"
+	source = "fa41822afba44f5bb28748a5952568d5"
+	position = [651 -359]
+}
+ccf714082ed14cafbc5ab990cfae177f = {
+	type = "provider"
+	value = "scene"
+	position = [-11 -676]
+}
+c8fa0890386b40d794c2269c74849940 = {
+	type = "search"
+	source = "ccf714082ed14cafbc5ab990cfae177f"
+	value = "is:static overlap>=$min_overlaps"
+	variables = {
+		min_overlaps = "c63963901e6449b48453d2fb76ccc22c"
+	}
+	position = [220 -618]
+}
+fa41822afba44f5bb28748a5952568d5 = {
+	type = "map"
+	name = "Types"
+	variables = {
+		X = "762225ef71da43bab590707957c8539c"
+		Y = "c8fa0890386b40d794c2269c74849940"
+	}
+	properties = {
+		Mapping = 2
+		GroupBy = "overlap"
+	}
+	position = [546 -407]
+}
+c63963901e6449b48453d2fb76ccc22c = {
+	type = "value"
+	name = "min_overlaps"
+	value = 9
+	position = [-84 -580]
+}
+762225ef71da43bab590707957c8539c = {
+	type = "union"
+	variables = {
+		1 = "c63963901e6449b48453d2fb76ccc22c"
+		2 = "68f19b66e9a44a2a935784c0f05acc44"
+		3 = "fa87f262be2a49bdaa88f9638ae78012"
+		4 = "abdcb74e0d144db58a356b9f7960b618"
+		5 = "16aa2957d23b40728138f6fbfba3b228"
+		6 = null
+	}
+	position = [138 -424]
+}
+16aa2957d23b40728138f6fbfba3b228 = {
+	type = "value"
+	value = 13
+	position = [-11 -179]
+}
+abdcb74e0d144db58a356b9f7960b618 = {
+	type = "value"
+	value = 12
+	position = [-11 -271]
+}
+68f19b66e9a44a2a935784c0f05acc44 = {
+	type = "value"
+	value = 10
+	position = [-21 -463]
+}
+fa87f262be2a49bdaa88f9638ae78012 = {
+	type = "value"
+	value = 11
+	position = [-11 -359]
+}
