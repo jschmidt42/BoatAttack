@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
+  m_Name: Texture Queries
+  m_EditorClassIdentifier: 
+  type: 3
+  title: Textures by MipMap count
+  description: Map out all the textures based on their mip map count
+  expression: {fileID: 202931137357016326, guid: f3288b46f9f825a4db7d2a2fd3c0b0c5,
+    type: 3}
+  variables: []
