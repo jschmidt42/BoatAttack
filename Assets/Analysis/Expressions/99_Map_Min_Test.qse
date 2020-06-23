@@ -28,8 +28,22 @@ fa41822afba44f5bb28748a5952568d5 = {
 		Y = "c8fa0890386b40d794c2269c74849940"
 	}
 	properties = {
-		Mapping = 2
+		Mapping = 0
 		GroupBy = "t"
 	}
 	position = [349 -62]
+}
+4fd60de9bed94c929e075083af59432c = {
+	type = "search"
+	source = "83d8ebc24bf947738ae2d8033a76fd36"
+	value = "ref:Blocker"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [6 13]
+}
+83d8ebc24bf947738ae2d8033a76fd36 = {
+	type = "provider"
+	value = "scene"
+	position = [-144 37]
 }
