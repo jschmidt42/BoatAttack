@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: 01_Prefab_Scene_Refs
+  m_Name: 17_LightColors
   m_EditorClassIdentifier: 
-  type: 4
-  title: Prefab / Scene References
-  description: Show how prefabs are nested and utilized across scenes
-  expression: {fileID: 202931137357016326, guid: ed7a68d79be199e41ade673777514809,
+  type: 1
+  title: Light Colors
+  description: 'Showing all the lights in a scene and their light colour '
+  expression: {fileID: 202931137357016326, guid: e97244b9d92348e45b8a63675aa4ffd0,
     type: 3}
   variables: []
