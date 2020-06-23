@@ -1,0 +1,43 @@
+a23db534924d43ac82145ea4cd2b370b = {
+	type = "results"
+	source = "4f54f0169aa14c57933d1a5a6eb80816"
+	position = [233 0]
+}
+0ab81640f3cf4e57bc6cf631d0d3e3e7 = {
+	type = "provider"
+	value = "asset"
+	position = [-357 -77]
+}
+36d9cb3c2990439a8f298122dc3da448 = {
+	type = "search"
+	source = "0ab81640f3cf4e57bc6cf631d0d3e3e7"
+	value = "t=LODGroup"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-218 55]
+}
+4f54f0169aa14c57933d1a5a6eb80816 = {
+	type = "map"
+	variables = {
+		X = "02a03679655444699c591a90a92b48c9"
+		Y = "02a03679655444699c591a90a92b48c9"
+	}
+	properties = {
+		GroupBy = "results"
+		Mapping = 4
+	}
+	position = [121 0]
+}
+02a03679655444699c591a90a92b48c9 = {
+	type = "select"
+	source = "36d9cb3c2990439a8f298122dc3da448"
+	value = "asset"
+	properties = {
+		type = "LODGroup"
+		field = "m_Size"
+		GroupData = true
+		mapped = true
+	}
+	position = [-77 -127]
+}
