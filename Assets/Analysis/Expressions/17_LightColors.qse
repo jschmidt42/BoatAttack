@@ -16,6 +16,10 @@ ccf714082ed14cafbc5ab990cfae177f = {
 }
 574dd0b7397a49ecbeee29d455e2c969 = {
 	type = "map"
+	properties = {
+		Mapping = 4
+		GroupBy = ""
+	}
 	position = [334 -79]
 }
 51b7474d6f41487c852e1c34e7795b2a = {
