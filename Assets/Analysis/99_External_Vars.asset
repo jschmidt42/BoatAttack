@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
+  m_Name: 99_External_Vars
+  m_EditorClassIdentifier: 
+  type: 3
+  title: External Variables
+  description: 
+  expression: {fileID: 202931137357016326, guid: b8b33fd9bf5330643b41b3038e5ed92f,
+    type: 3}
+  ignoreNulValues: 0
+  variables:
+  - name: Label_01
+    type: 0
+    value: Width
+    number: 0
+    set: {fileID: 0}
+  - name: Label_02
+    type: 0
+    value: Dimensions
+    number: 0
+    set: {fileID: 0}
+  - name: Label_03
+    type: 0
+    value: Height
+    number: 0
+    set: {fileID: 0}
+  - name: Scale
+    type: 1
+    value: 
+    number: 1.96
+    set: {fileID: 0}
+  - name: Values (3)
+    type: 2
+    value: 
+    number: 0
+    set: {fileID: 202931137357016326, guid: b588c7a2ce55bdd4d8a384c0de61b237, type: 3}

@@ -1,0 +1,91 @@
+6570f6b37d2b46979435055e63af43fc = {
+	type = "results"
+	source = "2762b9fc85894538a1311f08ba1944b8"
+	position = [485 -14]
+}
+154689d9eca347d7a46dc49af8b2f7aa = {
+	type = "map"
+	variables = {
+		Y = "e46e039a6d7c4395bb2ac9b6e1b5834b"
+	}
+	properties = {
+		Mapping = 3
+		GroupBy = ""
+	}
+	position = [258 -197]
+}
+a92eac7ad30045d3861219b305285fa9 = {
+	type = "provider"
+	value = "asset"
+	position = [-203 -110]
+}
+69437063164444e39f4d1214895fc50a = {
+	type = "search"
+	source = "a92eac7ad30045d3861219b305285fa9"
+	value = "t=Texture2d"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-72 -134]
+}
+2762b9fc85894538a1311f08ba1944b8 = {
+	type = "union"
+	variables = {
+		1 = "154689d9eca347d7a46dc49af8b2f7aa"
+		2 = "3a1bfcca29884b12bdbef96201306c4b"
+		3 = "8f016d04052049d587b7aea8a0b9feb0"
+	}
+	position = [363 -110]
+}
+e46e039a6d7c4395bb2ac9b6e1b5834b = {
+	type = "select"
+	source = "69437063164444e39f4d1214895fc50a"
+	value = "asset"
+	properties = {
+		type = "Texture2D"
+		field = "m_Width"
+	}
+	position = [78 -161]
+}
+3d6a61a980dc4f29b6170d287343ac1c = {
+	type = "select"
+	source = "69437063164444e39f4d1214895fc50a"
+	value = "asset"
+	properties = {
+		type = "Texture2D"
+		field = "m_TextureDimension"
+	}
+	position = [61 -33]
+}
+3a1bfcca29884b12bdbef96201306c4b = {
+	type = "map"
+	variables = {
+		Y = "3d6a61a980dc4f29b6170d287343ac1c"
+	}
+	properties = {
+		Mapping = 0
+		GroupBy = ""
+	}
+	position = [241 -47]
+}
+a67e4c8d1dde4b6c977a6e7c27c59fc5 = {
+	type = "select"
+	source = "69437063164444e39f4d1214895fc50a"
+	value = "asset"
+	properties = {
+		type = "Texture2D"
+		field = "m_Height"
+	}
+	position = [78 104]
+}
+8f016d04052049d587b7aea8a0b9feb0 = {
+	type = "map"
+	variables = {
+		Y = "a67e4c8d1dde4b6c977a6e7c27c59fc5"
+	}
+	properties = {
+		Mapping = 1
+		GroupBy = ""
+	}
+	position = [266 95]
+}

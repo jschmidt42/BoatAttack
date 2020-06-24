@@ -1,0 +1,73 @@
+f294aa8ad4f146d4ab4e789aa5cdca8d = {
+	type = "results"
+	source = "b477541c6efc4568ab4f436d8a28da28"
+	position = [336 122]
+}
+42608fd762f84876a73e6ffc917ce6c6 = {
+	type = "provider"
+	value = "calculator"
+	position = [-208 23]
+}
+3821c1fb9db144b48810b687057aa934 = {
+	type = "search"
+	source = "42608fd762f84876a73e6ffc917ce6c6"
+	value = "=$scale*$value"
+	variables = {
+		scale = "64bd793dd19c4e428a5ab0bee81c9619"
+		value = "7ba9408673dd4910b0e25d1826354d79"
+	}
+	properties = {
+		BakedQuery = "=1*512"
+	}
+	position = [11 139]
+}
+b1691f1b876040999d4122dfcfe899e6 = {
+	type = "value"
+	name = "Label_01"
+	value = "Label 1"
+	position = [-82 -160]
+}
+b477541c6efc4568ab4f436d8a28da28 = {
+	type = "map"
+	variables = {
+		X = "52ac853c762741f6a603a4aba93d7a43"
+		Y = "3821c1fb9db144b48810b687057aa934"
+	}
+	properties = {
+		GroupBy = "results"
+		Mapping = 4
+	}
+	position = [216 88]
+}
+7ba9408673dd4910b0e25d1826354d79 = {
+	type = "expression"
+	name = "Values (3)"
+	position = [-201 269]
+}
+52ac853c762741f6a603a4aba93d7a43 = {
+	type = "union"
+	variables = {
+		1 = "b1691f1b876040999d4122dfcfe899e6"
+		2 = "3bae7577963541f08f877a6ca516ebb0"
+		3 = "1bf7c3625cd04776b00fea003c9fe89b"
+	}
+	position = [76 -98]
+}
+3bae7577963541f08f877a6ca516ebb0 = {
+	type = "value"
+	name = "Label_02"
+	value = "Label 2"
+	position = [-69 -66]
+}
+1bf7c3625cd04776b00fea003c9fe89b = {
+	type = "value"
+	name = "Label_03"
+	value = "Label 3"
+	position = [-69 23]
+}
+64bd793dd19c4e428a5ab0bee81c9619 = {
+	type = "value"
+	name = "Scale"
+	value = 1
+	position = [-168 146]
+}
