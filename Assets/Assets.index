@@ -13,7 +13,7 @@
     ],
     "options": {
         "disabled": false,
-        "synchronous": false,
+        "synchronous": true,
         "directories": true,
         "types": true,
         "properties": true,

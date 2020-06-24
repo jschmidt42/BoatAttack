@@ -7,7 +7,7 @@
     ],
     "excludes": [],
     "options": {
-        "disabled": false,
+        "disabled": true,
         "synchronous": false,
         "directories": false,
         "types": true,
