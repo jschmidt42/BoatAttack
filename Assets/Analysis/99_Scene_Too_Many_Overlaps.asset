@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: 99_Scene_Too_Many_Overlaps
   m_EditorClassIdentifier: 
   type: 5
-  title: Asset Types
-  description: Count asset per types
+  title: Too many overlaps
+  description: Show the amount of scene objects with more than 9 overlaps
   expression: {fileID: 202931137357016326, guid: e63eac614f5d2f146ba00d5ad1a5bb1e,
     type: 3}
+  ignoreNulValues: 0
   variables: []

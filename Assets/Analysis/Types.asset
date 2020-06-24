@@ -17,4 +17,5 @@ MonoBehaviour:
   description: Count asset per types
   expression: {fileID: 202931137357016326, guid: 8dc4f418209c064489479bb0f8b3e982,
     type: 3}
+  ignoreNulValues: 1
   variables: []

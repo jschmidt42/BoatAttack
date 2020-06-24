@@ -17,4 +17,5 @@ MonoBehaviour:
   description: Show how prefabs are nested and utilized across scenes
   expression: {fileID: 202931137357016326, guid: ed7a68d79be199e41ade673777514809,
     type: 3}
+  ignoreNulValues: 1
   variables: []

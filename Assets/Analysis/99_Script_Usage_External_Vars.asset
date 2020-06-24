@@ -17,4 +17,5 @@ MonoBehaviour:
   description: Show how many times a script is used for a given component type.
   expression: {fileID: 202931137357016326, guid: fec36fe4938706a46a2e4a80dde89b74,
     type: 3}
+  ignoreNulValues: 1
   variables: []

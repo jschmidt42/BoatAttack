@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: 99_LOD_Size_Max
   m_EditorClassIdentifier: 
   type: 5
-  title: LOD
-  description: 
+  title: LOD Size
+  description: LODGroup Size per Prefab
   expression: {fileID: 202931137357016326, guid: 3827c3f3fd226774c8417693124c4ba3,
     type: 3}
+  ignoreNulValues: 1
   variables: []
