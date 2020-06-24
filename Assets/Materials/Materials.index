@@ -1,0 +1,19 @@
+{
+    "name": "",
+    "type": "asset",
+    "roots": [],
+    "includes": [],
+    "excludes": [
+        "Temp/",
+        "External/"
+    ],
+    "options": {
+        "disabled": true,
+        "synchronous": false,
+        "directories": false,
+        "types": true,
+        "properties": true,
+        "dependencies": true
+    },
+    "baseScore": 100
+}
