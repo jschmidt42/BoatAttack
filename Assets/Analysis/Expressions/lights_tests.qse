@@ -62,8 +62,8 @@ fa41822afba44f5bb28748a5952568d5 = {
 41726652c436419f820e375a9f9a6200 = {
 	type = "search"
 	source = "ccf714082ed14cafbc5ab990cfae177f"
-	value = "data[0]=Assets/Materials/Blocker.mat"
-	position = [-108.5 403]
+	value = "t:meshrender material=blocker"
+	position = [-87.5 397.5]
 }
 b8365946b1dc4b7fb910a4c1d1c57529 = {
 	type = "select"
