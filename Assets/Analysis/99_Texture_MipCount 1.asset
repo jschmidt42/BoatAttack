@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
   m_Name: 99_Texture_MipCount 1
   m_EditorClassIdentifier: 
-  type: 4
+  type: 18
   title: Texture MipCount
-  description: 
+  description: Amount of textures that have a certain amount of mipmaps
   expression: {fileID: 202931137357016326, guid: 4cf30c452f94582458131668e4be01dc,
     type: 3}
   variables: []
