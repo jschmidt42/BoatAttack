@@ -1,7 +1,7 @@
 30b99b3c5e0a4dffa432c63cd0655735 = {
 	type = "results"
 	source = "fcd43472d45b40c392818b123401bfe3"
-	position = [404.5 -84]
+	position = [405 -84]
 }
 83804042dccd4ef58e1542932c8f7862 = {
 	type = "provider"
@@ -15,27 +15,28 @@ fdf44863a0674c619e2a5ac3235b41a6 = {
 	properties = {
 		type = "Texture2D"
 		field = "m_MipCount"
+		mapped = false
 	}
-	position = [-12 -166.5]
+	position = [-12 -166]
 }
 2cc95eaa173e46479a2bd320362265f9 = {
 	type = "search"
 	source = "83804042dccd4ef58e1542932c8f7862"
-	value = "t:Texture normal"
-	position = [-187 -45.5]
+	value = "t:Texture2D normal"
+	position = [-220 -53]
 }
 fcd43472d45b40c392818b123401bfe3 = {
 	type = "map"
 	name = "Mipcount"
 	variables = {
 		X = "fdf44863a0674c619e2a5ac3235b41a6"
-		Y = "abb886d22b554a22874b2245baa29ef0"
+		Y = "2cc95eaa173e46479a2bd320362265f9"
 	}
 	properties = {
 		Mapping = 2
 		GroupBy = "Mipcount"
 	}
-	position = [226 -128.5]
+	position = [226 -128]
 }
 abb886d22b554a22874b2245baa29ef0 = {
 	type = "select"
@@ -44,19 +45,20 @@ abb886d22b554a22874b2245baa29ef0 = {
 	properties = {
 		type = "Texture2D"
 		field = "m_TextureFormat"
+		mapped = false
 	}
-	position = [-12 -32.5]
+	position = [-12 112]
 }
 fa737363204d4b5da7e3d446e9ecc600 = {
 	type = "provider"
 	value = "asset"
-	position = [-293 515.5]
+	position = [-293 516]
 }
 1b93a54f42af42e3971d8cd0f97e265b = {
 	type = "value"
 	name = "textureType"
 	value = "normal"
-	position = [-293 662.5]
+	position = [-293 663]
 }
 72574376833442d0a5f4b10292a6bdb8 = {
 	type = "search"
@@ -65,7 +67,7 @@ fa737363204d4b5da7e3d446e9ecc600 = {
 	variables = {
 		var1 = "1b93a54f42af42e3971d8cd0f97e265b"
 	}
-	position = [-12 515.5]
+	position = [-12 516]
 }
 c043565005494736882fe092643549e7 = {
 	type = "select"
@@ -75,7 +77,7 @@ c043565005494736882fe092643549e7 = {
 		type = "Texture2D"
 		field = "m_CorrespondingSourceObject"
 	}
-	position = [201 539.5]
+	position = [201 540]
 }
 881228c7f0be4b938d80fd39b8b7f90d = {
 	type = "select"
@@ -85,16 +87,16 @@ c043565005494736882fe092643549e7 = {
 		type = "MeshRenderer"
 		field = "m_Enabled"
 	}
-	position = [0.5 860.5]
+	position = [1 861]
 }
 f85ad490d62b42728ead5ad2521571c3 = {
 	type = "provider"
 	value = "asset"
-	position = [-319 880.5]
+	position = [-319 881]
 }
 6ec14ec64b6e49baa8633a53949a2196 = {
 	type = "search"
 	source = "f85ad490d62b42728ead5ad2521571c3"
 	value = "t:prefab"
-	position = [-157 856.5]
+	position = [-157 857]
 }
