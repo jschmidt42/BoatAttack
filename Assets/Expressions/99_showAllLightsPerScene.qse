@@ -1,0 +1,56 @@
+8b60b9d788f1433986a41423903a1edc = {
+	type = "results"
+	source = "b386ce711f1c43c1ac441eb107dc6502"
+	position = [494 203.5]
+}
+8491e85fca804ea88530c45b38497ad4 = {
+	type = "provider"
+	value = "object"
+	position = [-414.5 141]
+}
+dcb6cc9e11d24dddb46f1324510bf673 = {
+	type = "search"
+	source = "8491e85fca804ea88530c45b38497ad4"
+	value = "t:light type=$lightype scene:$scenename"
+	variables = {
+		lightype = "c87ab58eb22745af999116b4e67f5ab1"
+		scenename = "e5157743a0014eddabeabe2179907ec9"
+	}
+	position = [-234.5 141]
+}
+c87ab58eb22745af999116b4e67f5ab1 = {
+	type = "value"
+	name = "Light Type"
+	value = "Point"
+	position = [-423 267.5]
+	color = "EFD41F"
+}
+b386ce711f1c43c1ac441eb107dc6502 = {
+	type = "map"
+	variables = {
+		Y = "dcb6cc9e11d24dddb46f1324510bf673"
+		X = "cf02e8cd85e94c0395f553dc2634e0b2"
+	}
+	properties = {
+		Mapping = 2
+		GroupBy = "gameobject"
+	}
+	position = [342.5 155.5]
+}
+cf02e8cd85e94c0395f553dc2634e0b2 = {
+	type = "select"
+	source = "dcb6cc9e11d24dddb46f1324510bf673"
+	value = "component"
+	properties = {
+		type = "Light"
+		field = "m_Color"
+	}
+	position = [126 90.5]
+}
+e5157743a0014eddabeabe2179907ec9 = {
+	type = "value"
+	name = "Scene name"
+	value = "island"
+	position = [-423 378.5]
+	color = "FFFFFF"
+}
