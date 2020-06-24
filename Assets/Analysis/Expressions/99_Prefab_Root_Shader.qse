@@ -1,0 +1,36 @@
+ac1d2563c99f4336963a50ced8938fc3 = {
+	type = "results"
+	source = "06e93b8029d840299be4d1401c88b3e5"
+	position = [143 -75]
+}
+a41924589a9549448e57ecbfbc121d6b = {
+	type = "provider"
+	value = "asset"
+	position = [-338 -99]
+}
+7ce30b17e85a448abff65dbf43f89883 = {
+	type = "search"
+	source = "a41924589a9549448e57ecbfbc121d6b"
+	value = "t:shader"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-187 -24]
+}
+969326dffa8943b4ba5a960748df59c8 = {
+	type = "provider"
+	value = "scene"
+	position = [-338 -253]
+}
+06e93b8029d840299be4d1401c88b3e5 = {
+	type = "search"
+	source = "969326dffa8943b4ba5a960748df59c8"
+	value = "is:prefab prefab:root ref=$r "
+	variables = {
+		r = "7ce30b17e85a448abff65dbf43f89883"
+	}
+	properties = {
+		BakedQuery = "is:prefab prefab:root ref=Assets/Shaders/Graphs/PBR_HUE.ShaderGraph "
+	}
+	position = [-86 -253]
+}

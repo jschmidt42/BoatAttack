@@ -1,0 +1,88 @@
+ac1d2563c99f4336963a50ced8938fc3 = {
+	type = "results"
+	source = "61a226f20f9b4eebb5cc8d25641cbfd4"
+	position = [332 -125]
+}
+0aebdcc0cea848f6a1d201b0d2c1a4f3 = {
+	type = "search"
+	source = "969326dffa8943b4ba5a960748df59c8"
+	value = "is:prefab prefab:top"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-147 -125]
+}
+6ffc18c5aa7d47bc8728a21db9a22d05 = {
+	type = "map"
+	name = "Top"
+	variables = {
+		Y = "0aebdcc0cea848f6a1d201b0d2c1a4f3"
+	}
+	position = [61 -125]
+}
+969326dffa8943b4ba5a960748df59c8 = {
+	type = "provider"
+	value = "scene"
+	position = [-338 -253]
+}
+06e93b8029d840299be4d1401c88b3e5 = {
+	type = "search"
+	source = "969326dffa8943b4ba5a960748df59c8"
+	value = "is:prefab prefab:root"
+	properties = {
+		BakedQuery = "is:prefab prefab:root ref=Assets/Shaders/Graphs/PBR_HUE.ShaderGraph "
+	}
+	position = [-181 -277]
+}
+08a7c212f9444e0a8b61bb0c448b7117 = {
+	type = "map"
+	name = "Root"
+	variables = {
+		Y = "06e93b8029d840299be4d1401c88b3e5"
+	}
+	position = [61 -277]
+}
+61a226f20f9b4eebb5cc8d25641cbfd4 = {
+	type = "union"
+	variables = {
+		1 = "08a7c212f9444e0a8b61bb0c448b7117"
+		2 = "6ffc18c5aa7d47bc8728a21db9a22d05"
+		3 = "08e86f77d9254471b7fe74ff37e00cc1"
+		4 = "aab61099cc114492a8d5ced9c2894cc9"
+	}
+	position = [211 -202]
+}
+09f322f3cd4c46acbc1b056542b66097 = {
+	type = "search"
+	source = "969326dffa8943b4ba5a960748df59c8"
+	value = "is:prefab prefab:regular"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-190 27]
+}
+08e86f77d9254471b7fe74ff37e00cc1 = {
+	type = "map"
+	name = "Regular"
+	variables = {
+		Y = "09f322f3cd4c46acbc1b056542b66097"
+	}
+	position = [61 49]
+}
+35e43a660d1846ba991cf9708aac3686 = {
+	type = "search"
+	source = "969326dffa8943b4ba5a960748df59c8"
+	value = "-is:prefab"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-190 182]
+}
+aab61099cc114492a8d5ced9c2894cc9 = {
+	type = "map"
+	name = "Non Prefab"
+	variables = {
+		Y = "35e43a660d1846ba991cf9708aac3686"
+	}
+	position = [51 182]
+}
