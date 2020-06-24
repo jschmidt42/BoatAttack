@@ -15,6 +15,6 @@ MonoBehaviour:
   type: 5
   title: Asset Types
   description: Count asset per types
-  expression: {fileID: 202931137357016326, guid: 8dc4f418209c064489479bb0f8b3e982,
+  expression: {fileID: 202931137357016326, guid: e63eac614f5d2f146ba00d5ad1a5bb1e,
     type: 3}
   variables: []

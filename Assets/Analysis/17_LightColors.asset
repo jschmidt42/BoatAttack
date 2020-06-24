@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
   m_Name: 17_LightColors
   m_EditorClassIdentifier: 
-  type: 1
+  type: 4
   title: Light Colors
   description: 'Showing all the lights in a scene and their light colour '
   expression: {fileID: 202931137357016326, guid: e97244b9d92348e45b8a63675aa4ffd0,

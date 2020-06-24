@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
   m_Name: 99_LOD_Size_Max
   m_EditorClassIdentifier: 
-  type: 4
+  type: 5
   title: LOD
   description: 
   expression: {fileID: 202931137357016326, guid: 3827c3f3fd226774c8417693124c4ba3,
