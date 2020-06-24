@@ -1,0 +1,54 @@
+f294aa8ad4f146d4ab4e789aa5cdca8d = {
+	type = "results"
+	source = "4f97f5312c624109891ad36a4f89f89b"
+	position = [341 -119]
+}
+c2b963c921384dc4a4d7e99bed2b8567 = {
+	type = "value"
+	name = "Component Type"
+	value = "LODGroup"
+	position = [-230 47]
+}
+42608fd762f84876a73e6ffc917ce6c6 = {
+	type = "provider"
+	value = "scene"
+	position = [-251 -108]
+}
+9ea99dd2518f4337942e5097d357b139 = {
+	type = "provider"
+	value = "asset"
+	position = [-251 -245]
+}
+5b639b17fd294b0aa1c9026324b09cd8 = {
+	type = "search"
+	source = "9ea99dd2518f4337942e5097d357b139"
+	value = "t=MonoScript -Editor"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-87 -245]
+}
+3821c1fb9db144b48810b687057aa934 = {
+	type = "search"
+	source = "42608fd762f84876a73e6ffc917ce6c6"
+	value = "-is:static t=$t"
+	variables = {
+		t = "c2b963c921384dc4a4d7e99bed2b8567"
+	}
+	properties = {
+		BakedQuery = "-is:static t=LODGroup"
+	}
+	position = [-54 -108]
+}
+4f97f5312c624109891ad36a4f89f89b = {
+	type = "map"
+	variables = {
+		X = "5b639b17fd294b0aa1c9026324b09cd8"
+		Y = "3821c1fb9db144b48810b687057aa934"
+	}
+	properties = {
+		GroupBy = "ref"
+		Mapping = 2
+	}
+	position = [175 -230]
+}
