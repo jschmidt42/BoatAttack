@@ -17,7 +17,7 @@ dcb6cc9e11d24dddb46f1324510bf673 = {
 		scenename = "e5157743a0014eddabeabe2179907ec9"
 	}
 	properties = {
-		BakedQuery = "t:light type=Point scene:island"
+		BakedQuery = "t:light type=Point scene:SceneIndexTests"
 	}
 	position = [-234 141]
 }
@@ -26,7 +26,7 @@ c87ab58eb22745af999116b4e67f5ab1 = {
 	name = "Light Type"
 	value = "Point"
 	position = [-423 268]
-	color = "766703"
+	color = "574B00"
 }
 b386ce711f1c43c1ac441eb107dc6502 = {
 	type = "map"
@@ -47,6 +47,7 @@ cf02e8cd85e94c0395f553dc2634e0b2 = {
 	properties = {
 		type = "Light"
 		field = "m_Color"
+		mapped = false
 		overrides = true
 	}
 	position = [126 91]
@@ -54,7 +55,7 @@ cf02e8cd85e94c0395f553dc2634e0b2 = {
 e5157743a0014eddabeabe2179907ec9 = {
 	type = "value"
 	name = "Scene name"
-	value = "island"
-	position = [-423 379]
-	color = "545454"
+	value = "SceneIndexTests"
+	position = [-423 380]
+	color = "333333"
 }

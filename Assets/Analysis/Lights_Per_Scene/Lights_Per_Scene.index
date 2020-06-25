@@ -3,13 +3,11 @@
     "type": "scene",
     "roots": [],
     "includes": [],
-    "excludes": [
-        "Testing/"
-    ],
+    "excludes": [],
     "options": {
         "disabled": false,
         "synchronous": false,
-        "directories": true,
+        "directories": false,
         "types": true,
         "properties": true,
         "dependencies": false
