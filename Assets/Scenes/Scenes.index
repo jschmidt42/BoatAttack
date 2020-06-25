@@ -1,9 +1,11 @@
 {
     "name": "",
-    "type": "prefab",
+    "type": "scene",
     "roots": [],
     "includes": [],
-    "excludes": [],
+    "excludes": [
+        "Testing/"
+    ],
     "options": {
         "disabled": false,
         "synchronous": false,
@@ -12,5 +14,5 @@
         "properties": true,
         "dependencies": true
     },
-    "baseScore": 150
+    "baseScore": 155
 }

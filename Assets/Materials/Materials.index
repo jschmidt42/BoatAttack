@@ -8,7 +8,7 @@
         "External/"
     ],
     "options": {
-        "disabled": true,
+        "disabled": false,
         "synchronous": false,
         "directories": false,
         "types": true,

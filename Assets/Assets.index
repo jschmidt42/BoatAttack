@@ -8,12 +8,11 @@
     "excludes": [
         "Temp/",
         "External/",
-        "Analysis/",
         "Assets/TextMesh Pro/"
     ],
     "options": {
         "disabled": false,
-        "synchronous": true,
+        "synchronous": false,
         "directories": true,
         "types": true,
         "properties": true,
