@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: 02_Scene_Static_Mesh_Textures
+  m_Name: Prefab_Scene_Refs
   m_EditorClassIdentifier: 
-  type: 5
-  title: Textures / Static Mesh
-  description: Show all the different resolutions of textures being used in a scene
-    from static meshes
-  expression: {fileID: 202931137357016326, guid: ffc025f723892af45852e1c2956e7291,
+  type: 4
+  title: Prefab / Scene References
+  description: Show how prefabs are nested and utilized across scenes
+  expression: {fileID: 202931137357016326, guid: ed7a68d79be199e41ade673777514809,
     type: 3}
+  ignoreNulValues: 1
+  colorLabels: 0
   variables: []

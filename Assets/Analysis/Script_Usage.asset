@@ -10,11 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: 99_Texture_MipCount
+  m_Name: Script_Usage
   m_EditorClassIdentifier: 
-  type: 18
-  title: Texture MipCount
-  description: Amount of textures that have a certain amount of mipmaps
-  expression: {fileID: 202931137357016326, guid: 4cf30c452f94582458131668e4be01dc,
+  type: 5
+  title: Script Usage
+  description: Show how many times a script is used for a given component type.
+  expression: {fileID: 202931137357016326, guid: fec36fe4938706a46a2e4a80dde89b74,
     type: 3}
-  variables: []
+  ignoreNulValues: 0
+  colorLabels: 0
+  variables:
+  - name: Component Type
+    type: 0
+    text: LODGroup
+    number: 0
+    set: {fileID: 0}

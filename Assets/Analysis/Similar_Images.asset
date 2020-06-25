@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: 99_Script_Usage
+  m_Name: Similar_Images
   m_EditorClassIdentifier: 
-  type: 5
-  title: Script Usage
-  description: Show how many times a script is used for a given component type.
-  expression: {fileID: 202931137357016326, guid: fec36fe4938706a46a2e4a80dde89b74,
+  type: 0
+  title: List similar images
+  description: 
+  expression: {fileID: 202931137357016326, guid: 00956ed4165c7044f8fbf72c544ce165,
     type: 3}
   ignoreNulValues: 0
-  variables:
-  - name: Component Type
-    value: 
-    set: {fileID: 0}
+  colorLabels: 0
+  variables: []
