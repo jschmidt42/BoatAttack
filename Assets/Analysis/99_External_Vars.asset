@@ -21,26 +21,26 @@ MonoBehaviour:
   variables:
   - name: Label_01
     type: 0
-    value: Width
+    text: Width
     number: 0
     set: {fileID: 0}
   - name: Label_02
     type: 0
-    value: Dimensions
+    text: Dimensions
     number: 0
     set: {fileID: 0}
   - name: Label_03
     type: 0
-    value: Height
+    text: Height
     number: 0
     set: {fileID: 0}
   - name: Scale
     type: 1
-    value: 
+    text: 
     number: 1.96
     set: {fileID: 0}
   - name: Values (3)
-    type: 2
-    value: 
+    type: 3
+    text: 
     number: 0
     set: {fileID: 202931137357016326, guid: b588c7a2ce55bdd4d8a384c0de61b237, type: 3}

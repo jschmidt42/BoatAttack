@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: Analysis
+  m_Name: 99_Similar_Images
   m_EditorClassIdentifier: 
   type: 0
-  title: 
+  title: List similar images
   description: 
-  expression: {fileID: 0}
+  expression: {fileID: 202931137357016326, guid: 00956ed4165c7044f8fbf72c544ce165,
+    type: 3}
   ignoreNulValues: 0
   variables: []

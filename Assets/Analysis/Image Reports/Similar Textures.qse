@@ -14,22 +14,22 @@ a8db09ae13e94f09b0c65b788e08f7f7 = {
 	value = "hist($texture)>$value"
 	variables = {
 		texture = "01b4032b4166430189f36421d92af03d"
-		value = "ee0524d61a1c407ea7c470e2b56f824d"
+		value = "c84da12cfe97453b9f91b69be91f8fe4"
 	}
 	properties = {
-		BakedQuery = "hist(Assets/Textures/Terrain/Bush_basecolor.tif)>0.5"
+		BakedQuery = "hist(Assets/Textures/Terrain/Bush_basecolor.tif)>0.75"
 	}
 	position = [28 -107]
 }
 01b4032b4166430189f36421d92af03d = {
 	type = "value"
-	name = "Base Texture"
+	name = "Base"
 	value = "Assets/Textures/Terrain/Bush_basecolor.tif"
 	position = [-357 42]
 }
-ee0524d61a1c407ea7c470e2b56f824d = {
+c84da12cfe97453b9f91b69be91f8fe4 = {
 	type = "value"
 	name = "Value"
-	value = 0.5
-	position = [-192 161]
+	value = 0.75
+	position = [-181 167]
 }
