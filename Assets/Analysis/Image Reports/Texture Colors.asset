@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
   m_Name: Texture Colors
   m_EditorClassIdentifier: 
-  type: 0
-  title: 
+  type: 3
+  title: Textures By Color
   description: 
-  expression: {fileID: 0}
+  expression: {fileID: 202931137357016326, guid: b9fdfcc6793c2684ebada2622fee5ebd,
+    type: 3}
   ignoreNulValues: 0
+  colorLabels: 1
   variables: []

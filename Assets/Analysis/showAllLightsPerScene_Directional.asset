@@ -22,11 +22,11 @@ MonoBehaviour:
   variables:
   - name: Light Type
     type: 0
-    text: 
+    text: Directional
     number: 0
     set: {fileID: 0}
   - name: Scene name
     type: 0
-    text: 
+    text: island
     number: 0
     set: {fileID: 0}

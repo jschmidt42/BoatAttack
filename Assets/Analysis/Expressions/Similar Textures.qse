@@ -1,0 +1,35 @@
+834129dafac84dbf8e2f8f34c59c6a56 = {
+	type = "results"
+	source = "a8db09ae13e94f09b0c65b788e08f7f7"
+	position = [253 -53]
+}
+a7b5a4ed2a42498c92230db377f8a54e = {
+	type = "provider"
+	value = "img"
+	position = [-261 -53]
+}
+a8db09ae13e94f09b0c65b788e08f7f7 = {
+	type = "search"
+	source = "a7b5a4ed2a42498c92230db377f8a54e"
+	value = "hist($texture)>$value"
+	variables = {
+		texture = "01b4032b4166430189f36421d92af03d"
+		value = "c84da12cfe97453b9f91b69be91f8fe4"
+	}
+	properties = {
+		BakedQuery = "hist(Assets/Textures/Terrain/Bush_basecolor.tif)>0.75"
+	}
+	position = [28 -107]
+}
+01b4032b4166430189f36421d92af03d = {
+	type = "value"
+	name = "Base"
+	value = "Assets/Textures/Terrain/Bush_basecolor.tif"
+	position = [-357 42]
+}
+c84da12cfe97453b9f91b69be91f8fe4 = {
+	type = "value"
+	name = "Value"
+	value = 0.75
+	position = [-181 167]
+}

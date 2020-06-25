@@ -1,0 +1,73 @@
+ba13ec45215d4b1a99c3208a60738d32 = {
+	type = "results"
+	source = "2e2bf15cef7943aabe8de3364a02697a"
+	position = [363 -24]
+}
+856cc04855ef4a3b90fdbd4ba239de0c = {
+	type = "provider"
+	value = "img"
+	position = [-266 -38]
+}
+b5da85ad6427413fbdf5596c2aebb8af = {
+	type = "search"
+	source = "856cc04855ef4a3b90fdbd4ba239de0c"
+	value = "color(blue)>0.6"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-122 126]
+	color = "02385B"
+}
+88cec6c96b0e4c10a2f0fe5792f73b8a = {
+	type = "map"
+	name = "Red"
+	variables = {
+		Y = "9ce8af034d464b30b8c5b0756207a681"
+	}
+	position = [104 -163]
+}
+9ce8af034d464b30b8c5b0756207a681 = {
+	type = "search"
+	source = "856cc04855ef4a3b90fdbd4ba239de0c"
+	value = "color(red)>0.6"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-116 -193]
+	color = "901212"
+}
+c356a945ad77476cae58c736993d47c1 = {
+	type = "search"
+	source = "856cc04855ef4a3b90fdbd4ba239de0c"
+	value = "color(green)>0.6"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-116 -38]
+	color = "005E04"
+}
+9290e6f4545f4b5282d2ea9e8b03119c = {
+	type = "map"
+	name = "Green"
+	variables = {
+		Y = "c356a945ad77476cae58c736993d47c1"
+	}
+	position = [104 1]
+}
+a682faab6840422e8890c5aa96acd7d9 = {
+	type = "map"
+	name = "Blue"
+	variables = {
+		Y = "b5da85ad6427413fbdf5596c2aebb8af"
+	}
+	position = [104 147]
+}
+2e2bf15cef7943aabe8de3364a02697a = {
+	type = "union"
+	variables = {
+		1 = "88cec6c96b0e4c10a2f0fe5792f73b8a"
+		2 = "9290e6f4545f4b5282d2ea9e8b03119c"
+		3 = "a682faab6840422e8890c5aa96acd7d9"
+	}
+	position = [234 -37]
+}

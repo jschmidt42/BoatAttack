@@ -13,19 +13,20 @@ MonoBehaviour:
   m_Name: Similar Textures
   m_EditorClassIdentifier: 
   type: 0
-  title: Similar textures
+  title: Similar Textures
   description: 
-  expression: {fileID: 202931137357016326, guid: f081577210ae8ec4cb32b4cf0a6fe3d2,
+  expression: {fileID: 202931137357016326, guid: 63f611a4a3d117244b7959bba1d13e2f,
     type: 3}
   ignoreNulValues: 0
+  colorLabels: 0
   variables:
   - name: Base
     type: 2
-    text: Assets/Textures/Terrain/Bush_basecolor.tif
+    text: Assets/Objects/boats/Maps/Interceptor_Normal.tif
     number: 0
     set: {fileID: 0}
   - name: Value
     type: 1
     text: 
-    number: 0.42
+    number: 0.45
     set: {fileID: 0}

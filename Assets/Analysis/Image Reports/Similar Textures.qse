@@ -1,35 +1,35 @@
-834129dafac84dbf8e2f8f34c59c6a56 = {
+f64873df66c6436fb699d41ad164f3d3 = {
 	type = "results"
-	source = "a8db09ae13e94f09b0c65b788e08f7f7"
-	position = [253 -53]
+	source = "9f398568808c482cbb795d9a3e8c9d22"
+	position = [272 -45]
 }
-a7b5a4ed2a42498c92230db377f8a54e = {
+7dba61e413774440b8b3870b822eeea6 = {
 	type = "provider"
 	value = "img"
-	position = [-261 -53]
+	position = [-294 -134]
 }
-a8db09ae13e94f09b0c65b788e08f7f7 = {
+bec6fa597e69464d8418ac0dbc8045e4 = {
+	type = "value"
+	name = "Base"
+	value = "Assets/Textures/Terrain/Bush_basecolor.tif"
+	position = [-342 -45]
+}
+fa4cc5fc750f4d45bed7749d3d562802 = {
+	type = "value"
+	name = "Value"
+	value = 0.75
+	position = [-239 149]
+}
+9f398568808c482cbb795d9a3e8c9d22 = {
 	type = "search"
-	source = "a7b5a4ed2a42498c92230db377f8a54e"
+	source = "7dba61e413774440b8b3870b822eeea6"
 	value = "hist($texture)>$value"
 	variables = {
-		texture = "01b4032b4166430189f36421d92af03d"
-		value = "c84da12cfe97453b9f91b69be91f8fe4"
+		texture = "bec6fa597e69464d8418ac0dbc8045e4"
+		value = "fa4cc5fc750f4d45bed7749d3d562802"
 	}
 	properties = {
 		BakedQuery = "hist(Assets/Textures/Terrain/Bush_basecolor.tif)>0.75"
 	}
-	position = [28 -107]
-}
-01b4032b4166430189f36421d92af03d = {
-	type = "value"
-	name = "Base"
-	value = "Assets/Textures/Terrain/Bush_basecolor.tif"
-	position = [-357 42]
-}
-c84da12cfe97453b9f91b69be91f8fe4 = {
-	type = "value"
-	name = "Value"
-	value = 0.75
-	position = [-181 167]
+	position = [17 -131]
 }
