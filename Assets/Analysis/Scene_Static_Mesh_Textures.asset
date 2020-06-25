@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: 03b_Unused_Materials
+  m_Name: Scene_Static_Mesh_Textures
   m_EditorClassIdentifier: 
-  type: 0
-  title: Unused Materials
-  description: List unused materials
-  expression: {fileID: 202931137357016326, guid: d0131179e2773df4dafa759b80226d9e,
+  type: 5
+  title: Textures / Static Mesh
+  description: Show all the different resolutions of textures being used in a scene
+    from static meshes
+  expression: {fileID: 202931137357016326, guid: ffc025f723892af45852e1c2956e7291,
     type: 3}
+  ignoreNulValues: 0
+  colorLabels: 0
   variables: []
