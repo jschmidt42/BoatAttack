@@ -18,7 +18,7 @@ MonoBehaviour:
   expression: {fileID: 202931137357016326, guid: 75ff9e31ab22663449b3bc57f4b8beaa,
     type: 3}
   ignoreNulValues: 1
-  colorLabels: 0
+  colorLabels: 1
   variables:
   - name: Light Type
     type: 0
