@@ -10,18 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: Script_Usage
+  m_Name: Prefab_Scene_References
   m_EditorClassIdentifier: 
-  type: 5
-  title: Script Usage
-  description: Show how many times a script is used for a given component type.
-  expression: {fileID: 202931137357016326, guid: fec36fe4938706a46a2e4a80dde89b74,
+  type: 4
+  title: Prefab / Scene References
+  description: Show how prefabs are nested and utilized across scenes
+  expression: {fileID: 202931137357016326, guid: ed7a68d79be199e41ade673777514809,
     type: 3}
-  ignoreNulValues: 0
+  ignoreNulValues: 1
   colorLabels: 0
-  variables:
-  - name: Component Type
-    type: 0
-    text: LODGroup
-    number: 0
-    set: {fileID: 0}
+  variables: []

@@ -10,11 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: Lights_by_color
+  m_Name: Scripts_By_Type_Count
   m_EditorClassIdentifier: 
-  type: 18
-  title: Lights by Color
-  description: 
-  expression: {fileID: 202931137357016326, guid: 6fd357b36a26d0648820630784ea978e,
+  type: 5
+  title: Script Usage
+  description: Show how many times a script is used for a given component type.
+  expression: {fileID: 202931137357016326, guid: fec36fe4938706a46a2e4a80dde89b74,
     type: 3}
-  variables: []
+  ignoreNulValues: 0
+  colorLabels: 0
+  variables:
+  - name: Component Type
+    type: 0
+    text: LODGroup
+    number: 0
+    set: {fileID: 0}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: showAllLightsPerScene_Point
+  m_Name: Objects_Light_By_Point_And_Color_Count
   m_EditorClassIdentifier: 
   type: 3
   title: Island Point Light Colors

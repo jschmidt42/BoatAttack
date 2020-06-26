@@ -1,12 +1,12 @@
 6570f6b37d2b46979435055e63af43fc = {
 	type = "results"
 	source = "c33f3fe3f7354ab88591bd04bdd8b9b7"
-	position = [260 668.5]
+	position = [260 669]
 }
 8f772dacb1184ca8bd83e8dce467f13d = {
 	type = "provider"
 	value = "scene"
-	position = [-591.5 630]
+	position = [-591 630]
 }
 7e9153bc68774bedad0efdc11c8f250a = {
 	type = "search"
@@ -15,17 +15,20 @@
 	variables = {
 		lighttype = "3378abe095894dcba087b86911076d36"
 	}
-	position = [-403.5 630]
+	properties = {
+		BakedQuery = "t=light p(type):directional"
+	}
+	position = [-403 630]
 }
 9dd8f6bad5db48c2a0a4a1eb2f95e496 = {
 	type = "select"
 	source = "7e9153bc68774bedad0efdc11c8f250a"
-	value = "asset"
+	value = "Asset"
 	properties = {
 		type = "Light"
 		field = "m_Color"
 	}
-	position = [-92.5 579.5]
+	position = [-92 580]
 }
 c33f3fe3f7354ab88591bd04bdd8b9b7 = {
 	type = "map"
@@ -34,10 +37,10 @@ c33f3fe3f7354ab88591bd04bdd8b9b7 = {
 		Y = "7e9153bc68774bedad0efdc11c8f250a"
 	}
 	properties = {
-		Mapping = 4
-		GroupBy = "color"
+		Mapping = 2
+		GroupBy = "p(color)"
 	}
-	position = [72.5 644.5]
+	position = [73 645]
 }
 3378abe095894dcba087b86911076d36 = {
 	type = "value"

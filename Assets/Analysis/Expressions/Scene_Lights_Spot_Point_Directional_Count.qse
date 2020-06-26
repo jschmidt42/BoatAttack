@@ -1,0 +1,61 @@
+6570f6b37d2b46979435055e63af43fc = {
+	type = "results"
+	source = "0fdfcef2a6a342dc9fae752244e31055"
+	position = [-20 717]
+}
+53d6e5315ff048969d7d9dd2c1b8dc2a = {
+	type = "search"
+	source = "8f772dacb1184ca8bd83e8dce467f13d"
+	value = "t=light p(type):point"
+	position = [-488 924]
+}
+8f772dacb1184ca8bd83e8dce467f13d = {
+	type = "provider"
+	value = "scene"
+	position = [-672 755]
+}
+7e9153bc68774bedad0efdc11c8f250a = {
+	type = "search"
+	source = "8f772dacb1184ca8bd83e8dce467f13d"
+	value = "t=light p(type):directional"
+	position = [-502 630]
+}
+69f88c667cdc4866822df88695b5abcf = {
+	type = "search"
+	source = "8f772dacb1184ca8bd83e8dce467f13d"
+	value = "t=light p(type):spot"
+	position = [-466 780]
+}
+0fdfcef2a6a342dc9fae752244e31055 = {
+	type = "union"
+	variables = {
+		1 = "9e73fb8e4e7b4ed896d53b2bc755bbc8"
+		2 = "b74ff28523cb4734965cd5a0b383e5b6"
+		3 = "70f2da14ba6c484c97632ae96bf3a9b5"
+	}
+	position = [-127 708]
+}
+9e73fb8e4e7b4ed896d53b2bc755bbc8 = {
+	type = "map"
+	name = "Directional Lights"
+	variables = {
+		Y = "7e9153bc68774bedad0efdc11c8f250a"
+	}
+	position = [-255 619]
+}
+b74ff28523cb4734965cd5a0b383e5b6 = {
+	type = "map"
+	name = "Spot Lights"
+	variables = {
+		Y = "69f88c667cdc4866822df88695b5abcf"
+	}
+	position = [-255 744]
+}
+70f2da14ba6c484c97632ae96bf3a9b5 = {
+	type = "map"
+	name = "Point Lights"
+	variables = {
+		Y = "53d6e5315ff048969d7d9dd2c1b8dc2a"
+	}
+	position = [-255 881]
+}

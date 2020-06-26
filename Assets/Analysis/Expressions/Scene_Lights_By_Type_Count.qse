@@ -1,18 +1,18 @@
 6570f6b37d2b46979435055e63af43fc = {
 	type = "results"
 	source = "eff0387d5ae64878af00246e90c43434"
-	position = [171.5 429]
+	position = [172 429]
 }
 8f772dacb1184ca8bd83e8dce467f13d = {
 	type = "provider"
 	value = "scene"
-	position = [-619 467.5]
+	position = [-619 468]
 }
 24324487b0534b5abec561eca3fbbcd9 = {
 	type = "search"
 	source = "8f772dacb1184ca8bd83e8dce467f13d"
 	value = "t=light"
-	position = [-403.5 417]
+	position = [-403 417]
 }
 146525fe9bc44033b222da2f9a280b7c = {
 	type = "select"
@@ -22,7 +22,7 @@
 		type = "Light"
 		field = "m_Type"
 	}
-	position = [-218 366.5]
+	position = [-218 367]
 }
 eff0387d5ae64878af00246e90c43434 = {
 	type = "map"
@@ -33,7 +33,7 @@ eff0387d5ae64878af00246e90c43434 = {
 	}
 	properties = {
 		Mapping = 2
-		GroupBy = "type"
+		GroupBy = "p(type)"
 	}
-	position = [-18.5 396]
+	position = [-18 396]
 }

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: LightColors
+  m_Name: Materials_Unused
   m_EditorClassIdentifier: 
-  type: 4
-  title: Light Colors
-  description: 'Showing all the lights in a scene and their light colour '
-  expression: {fileID: 202931137357016326, guid: e97244b9d92348e45b8a63675aa4ffd0,
+  type: 0
+  title: Unused Materials
+  description: List unused materials
+  expression: {fileID: 202931137357016326, guid: d0131179e2773df4dafa759b80226d9e,
     type: 3}
   ignoreNulValues: 0
-  colorLabels: 1
+  colorLabels: 0
   variables: []

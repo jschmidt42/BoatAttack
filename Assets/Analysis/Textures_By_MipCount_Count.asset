@@ -10,18 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: Scene_Too_Many_Overlaps
+  m_Name: Textures_By_MipCount_Count
   m_EditorClassIdentifier: 
-  type: 5
-  title: Too many overlaps
-  description: Show the amount of scene objects with more than 9 overlaps
-  expression: {fileID: 202931137357016326, guid: e63eac614f5d2f146ba00d5ad1a5bb1e,
+  type: 18
+  title: Texture MipCount
+  description: Amount of textures that have a certain amount of mipmaps
+  expression: {fileID: 202931137357016326, guid: 4cf30c452f94582458131668e4be01dc,
     type: 3}
   ignoreNulValues: 0
   colorLabels: 0
-  variables:
-  - name: min_overlaps
-    type: 1
-    text: 
-    number: 9
-    set: {fileID: 0}
+  variables: []

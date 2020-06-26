@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: Prefabs
+  m_Name: Prefabs_by_Type_Count
   m_EditorClassIdentifier: 
   type: 18
   title: Scene Prefabs
   description: 
   expression: {fileID: 202931137357016326, guid: 0af5a4431193c5c4c9050b79911f2f45,
     type: 3}
+  ignoreNulValues: 0
+  colorLabels: 0
   variables: []

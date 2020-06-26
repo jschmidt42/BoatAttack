@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: Texture_MipCount
+  m_Name: Scene_Light_Colors
   m_EditorClassIdentifier: 
-  type: 18
-  title: Texture MipCount
-  description: Amount of textures that have a certain amount of mipmaps
-  expression: {fileID: 202931137357016326, guid: 4cf30c452f94582458131668e4be01dc,
+  type: 4
+  title: Light Colors
+  description: 'Showing all the lights in a scene and their light colour '
+  expression: {fileID: 202931137357016326, guid: e97244b9d92348e45b8a63675aa4ffd0,
     type: 3}
   ignoreNulValues: 0
-  colorLabels: 0
+  colorLabels: 1
   variables: []

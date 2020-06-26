@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b9188adf388bd444abddfccce145139, type: 3}
-  m_Name: LOD_Size_Max
+  m_Name: Textures_RGB_Color_Count
   m_EditorClassIdentifier: 
-  type: 5
-  title: LOD Size
-  description: LODGroup Size per Prefab
-  expression: {fileID: 202931137357016326, guid: 3827c3f3fd226774c8417693124c4ba3,
+  type: 3
+  title: Texture Colors
+  description: Show textures per color
+  expression: {fileID: 202931137357016326, guid: 14738b4f80fe0384e898b46b3d436558,
     type: 3}
-  ignoreNulValues: 1
-  colorLabels: 0
+  ignoreNulValues: 0
+  colorLabels: 1
   variables: []

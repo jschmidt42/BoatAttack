@@ -1,0 +1,135 @@
+8392cb31f8254a51a6826db7ffa13e2b = {
+	type = "results"
+	source = "13a2aa7ee5504a728c36be9e50e035b3"
+	position = [311 111]
+}
+13a2aa7ee5504a728c36be9e50e035b3 = {
+	type = "union"
+	variables = {
+		1 = "6d32984d19484959b2a48716b2325a45"
+		2 = "1ec519bcb67442d783fe9b7063f1f02f"
+		3 = "7999f54d9c8645fa9d6e102d92ec5fda"
+		4 = "fa6c4a35158a4d1ab4c916e48a76c35d"
+		5 = "2891400885f747c1ad7fd6f9363a2e52"
+		6 = "0082ee6c9ba14f439eff971bfc3a4525"
+		7 = "1738214b5e794353878ea8eb9c891423"
+	}
+	position = [150 -81]
+}
+0082ee6c9ba14f439eff971bfc3a4525 = {
+	type = "select"
+	source = "aa210b1d82bd405fa88e95fe797d92dd"
+	value = "References"
+	position = [-120 225]
+	color = "46127E"
+}
+7999f54d9c8645fa9d6e102d92ec5fda = {
+	type = "select"
+	source = "9165f093165d45f289bfda53666a0c4e"
+	value = "Default"
+	position = [-98 -87]
+	color = "126F7E"
+}
+1ec519bcb67442d783fe9b7063f1f02f = {
+	type = "select"
+	source = "f37f2ef923d84e0b83e5abcfc571d5fc"
+	value = "Component"
+	properties = {
+		type = "Transform"
+		field = "m_RootOrder"
+		mapped = false
+		overrides = true
+	}
+	position = [-116 -188]
+	color = "6E7314"
+}
+1738214b5e794353878ea8eb9c891423 = {
+	type = "select"
+	source = "9165f093165d45f289bfda53666a0c4e"
+	value = "Type"
+	position = [-83 326]
+	color = "7E4112"
+}
+fa6c4a35158a4d1ab4c916e48a76c35d = {
+	type = "select"
+	source = "9165f093165d45f289bfda53666a0c4e"
+	value = "Object"
+	properties = {
+		type = "ScriptableObject"
+		field = "m_Script"
+		mapped = false
+	}
+	position = [-145 14]
+	color = "127E46"
+}
+6d32984d19484959b2a48716b2325a45 = {
+	type = "select"
+	source = "bc53f1de833b43ec843b6196dd03c3a9"
+	value = "Asset"
+	properties = {
+		type = "Texture2D"
+		field = "m_Width"
+	}
+	position = [-117 -289]
+}
+2891400885f747c1ad7fd6f9363a2e52 = {
+	type = "select"
+	source = "bc53f1de833b43ec843b6196dd03c3a9"
+	value = "Path"
+	position = [-82 115]
+	color = "7E1268"
+}
+b7d3764883134ead8f85f2caa82e65d5 = {
+	type = "provider"
+	value = "asset"
+	position = [-455 -211]
+}
+bc53f1de833b43ec843b6196dd03c3a9 = {
+	type = "search"
+	name = "Textures"
+	source = "b7d3764883134ead8f85f2caa82e65d5"
+	value = "t=Texture2D"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-308 -211]
+}
+04af51901c13436d8faebcd065c0aef8 = {
+	type = "provider"
+	value = "scene"
+	position = [-455 -110]
+}
+f37f2ef923d84e0b83e5abcfc571d5fc = {
+	type = "search"
+	name = "Colliders"
+	source = "04af51901c13436d8faebcd065c0aef8"
+	value = "t:collider"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-308 -110]
+}
+9f8b17c665e34bb09746f55a71e99d4a = {
+	type = "provider"
+	value = "res"
+	position = [-455 -9]
+}
+9165f093165d45f289bfda53666a0c4e = {
+	type = "search"
+	source = "9f8b17c665e34bb09746f55a71e99d4a"
+	value = "editor"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-299 -9]
+}
+aa210b1d82bd405fa88e95fe797d92dd = {
+	type = "search"
+	name = "Materials"
+	source = "b7d3764883134ead8f85f2caa82e65d5"
+	value = "t=Material"
+	properties = {
+		BakedQuery = ""
+	}
+	position = [-308 93]
+}
